@@ -773,3 +773,15 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/1612841
 	at org.h2.mvstore.FileStore.open(FileStore.java:128)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
 	... 59 more
+2023-07-12 18:51:53 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RESUME CHARACTER VARYING(255)": "U&'A gripe \\00e9 uma infec\\00e7\\00e3o viral comum que afeta o sistema respirat\\0... (343)"; SQL statement:
+UPDATE "PUBLIC"."ARTICLES" SET "ID"=? ,"AUTHOR"=? ,"CONTENT"=? ,"DATE"=? ,"RESUME"=? ,"STATUS"=? ,"THUMBNAIL"=? ,"TITLE"=? ,"VIEWS"=?  WHERE "ID"=? [22001-214]
+2023-07-12 18:51:53 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RESUME CHARACTER VARYING(255)": "U&'A gripe \\00e9 uma infec\\00e7\\00e3o viral comum que afeta o sistema respirat\\0... (343)"; SQL statement:
+UPDATE "PUBLIC"."ARTICLES" SET "ID"=? ,"AUTHOR"=? ,"CONTENT"=? ,"DATE"=? ,"RESUME"=? ,"STATUS"=? ,"THUMBNAIL"=? ,"TITLE"=? ,"VIEWS"=?  WHERE "ID"=? [22001-214]
+2023-07-12 18:57:21 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RESUME CHARACTER VARYING(255)": "U&'A catapora \\00e9 uma doen\\00e7a altamente contagiosa caracterizada por erup\\0... (337)"; SQL statement:
+UPDATE "PUBLIC"."ARTICLES" SET "ID"=? ,"AUTHOR"=? ,"CONTENT"=? ,"DATE"=? ,"RESUME"=? ,"STATUS"=? ,"THUMBNAIL"=? ,"TITLE"=? ,"VIEWS"=?  WHERE "ID"=? [22001-214]
+2023-07-12 18:57:21 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "RESUME CHARACTER VARYING(255)": "U&'A catapora \\00e9 uma doen\\00e7a altamente contagiosa caracterizada por erup\\0... (337)"; SQL statement:
+UPDATE "PUBLIC"."ARTICLES" SET "ID"=? ,"AUTHOR"=? ,"CONTENT"=? ,"DATE"=? ,"RESUME"=? ,"STATUS"=? ,"THUMBNAIL"=? ,"TITLE"=? ,"VIEWS"=?  WHERE "ID"=? [22001-214]
