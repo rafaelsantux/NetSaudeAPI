@@ -785,3 +785,9 @@ UPDATE "PUBLIC"."ARTICLES" SET "ID"=? ,"AUTHOR"=? ,"CONTENT"=? ,"DATE"=? ,"RESUM
 2023-07-12 18:57:21 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLDataException: Value too long for column "RESUME CHARACTER VARYING(255)": "U&'A catapora \\00e9 uma doen\\00e7a altamente contagiosa caracterizada por erup\\0... (337)"; SQL statement:
 UPDATE "PUBLIC"."ARTICLES" SET "ID"=? ,"AUTHOR"=? ,"CONTENT"=? ,"DATE"=? ,"RESUME"=? ,"STATUS"=? ,"THUMBNAIL"=? ,"TITLE"=? ,"VIEWS"=?  WHERE "ID"=? [22001-214]
+2023-07-12 19:06:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-07-12 19:53:22 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-07-12 19:54:45 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
